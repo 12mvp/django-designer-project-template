@@ -109,3 +109,4 @@ db.sqlite3
 src/static/*
 !src/static/DO_NO_PUT_FILES_DIRECTLY_HERE
 
+INSTALL.md
