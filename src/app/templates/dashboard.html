@@ -1,0 +1,15 @@
+{% extends "page_connected.html" %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+<div class="container">
+  {% if role == 'role_1' %}
+  <i>ROLE 1</i>
+  {% elif role == 'role_2' %}
+  <b>ROLE 2</b>
+  {% elif role == 'role_3' %}
+  <u>ROLE 3</u>
+  {% endif %}
+</div>
+{% endblock %}
